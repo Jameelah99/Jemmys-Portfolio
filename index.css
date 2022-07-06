@@ -50,7 +50,7 @@ ul {
   margin: 10px;
 }
 
-.navlink.active {
+.navlink:hover{
   color: #d48166;
 }
 
