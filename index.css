@@ -592,7 +592,7 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 150vh;
+    height: 130vh;
   }
 
   .hero-wrapper-content {
@@ -629,7 +629,7 @@ main {
   }
 
   #about {
-    height: 170vh;
+    height: 150vh;
   }
 
   #about p {
@@ -643,14 +643,14 @@ main {
 
   #projects {
     width: 100%;
-    height: 180vh;
+    height: 175vh;
     justify-content: center;
     align-items: center;
   }
 
   .project-card img {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     margin-top: 5px;
   }
 
@@ -690,6 +690,6 @@ main {
   }
 
   #contact {
-    height: 180vh;
+    height: 175vh;
   }
 }
