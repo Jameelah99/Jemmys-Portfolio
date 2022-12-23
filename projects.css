@@ -127,7 +127,7 @@ img{
 
 @media only screen and (max-width: 480px) {
 .slideshow-container{
-    max-width: 330px;
+    max-width: 310px;
     position: relative;
     margin-top: 7rem;
 }

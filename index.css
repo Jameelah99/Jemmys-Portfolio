@@ -65,7 +65,7 @@ a{
 }
 
 #hero-wrapper {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.452)), url("./Images/hans-ripa-F5J4QJqXQ98-unsplash.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.452)), url("./Images/hans-ripa-F5J4QJqXQ98-unsplash.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -420,7 +420,7 @@ h2{
   .hero-wrapper-content {
     display: flex;
     padding-top: 50px;
-    line-height: 4;
+    line-height: 5;
   }
 
   .greeting{
