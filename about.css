@@ -9,7 +9,7 @@
 
 .about-brief {
     text-align: center;
-    line-height: 4;
+    line-height: 2.5;
     font-size: 23px;
     color: #ffff;
     padding: 17px;
@@ -34,10 +34,6 @@
 
 
 @media only screen and (max-width: 480px){
-.about {
-    height: 10vh;
-}
-
 .about-brief {
     line-height: 2.5;
     font-size: 20px;
