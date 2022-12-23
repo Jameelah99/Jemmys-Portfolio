@@ -1,33 +1,26 @@
-let slideIndex = 1
-showSlides(slideIndex);
+// automatic
+let slideIndex = 0;
+showSlides();
 
-// next and prev control
-function plusSlides(n) {
-    showSlides(slideIndex += n);
-}
-
-// thumbnail image control
-function currentSlide(n) {
-    showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
+function showSlides() {
     let i;
     let sliders = document.getElementsByClassName("slides");
-    let dots = document.getElementsByClassName("dot");
-    if (n > sliders.lenght){
-        slideIndex = 1
-    }
-    if (n < 1){
-        slideIndex = sliders.length
-    }
-    for (i = 0; i < sliders.length; i++) {
+    let caption = document.getElementsByClassName("text");
+    for (i = 0; i < sliders.length; i++){
         sliders[i].style.display = "none";
     }
-    for(i = 0; i < dots.length; i++){
-        dots[i].className = dots[i].className.replace("active", "");
+    for(i = 0; i < caption.length; i++){
+        caption[i].style.display = "none";
+    }
+    slideIndex++;
+    if(slideIndex > sliders.length){
+        slideIndex = 1
     }
     sliders[slideIndex-1].style.display = "block";
-    setTimeout(showSlides, 2000);
-    dots[slideIndex-1].className += "active";
+    
+    if(slideIndex > caption.length){
+        slideIndex = 1
+    }
+    caption[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 3000)
 }

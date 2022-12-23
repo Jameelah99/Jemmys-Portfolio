@@ -4,6 +4,7 @@
 
 .sMedia {
     color: #ccc;
+    font-size: 20px;
 }
 
 .sMedia:hover{
@@ -16,24 +17,24 @@ a{
 
 .connect-with-me{
     height: 100vh;
-  }
+}
   
-  .contact-body{
+.contact-body{
     background-color: dimgray ;
-  }
+}
 
   /* SOCIAL MEDIA*/
 .social-account-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
-    margin-top: 50px;
+    gap: 80px;
+    margin-top: 100px;
   }
   
   .social-account-wrapper svg {
-    width: 30px;
-    height: 30px;
+    width: 75px;
+    height: 75px;
     fill: #d48166; /* either use color or fill*/
   }
   
@@ -66,9 +67,6 @@ a{
     font-size: 20px;
 }
 
-h2{
-    font-size: 30px;
-}
 }
 
 
@@ -83,9 +81,12 @@ h2{
 }
 
 .social-account-wrapper svg {
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     fill: #d48166; /* either use color or fill*/
+}
+.sMedia{
+    font-size: 15px;
 }
 }
 

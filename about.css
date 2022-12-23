@@ -26,7 +26,7 @@
 
 @media only screen and (max-width: 768px) {
 .about-brief{
-    line-height: 5;
+    line-height: 4;
     font-size: 19px;
     padding: 20px;
 }
@@ -39,6 +39,7 @@
 }
 
 .about-brief {
+    line-height: 2.5;
     font-size: 20px;
     padding: 10px;
 }

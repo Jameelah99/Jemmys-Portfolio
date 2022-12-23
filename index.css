@@ -114,14 +114,14 @@ a{
 
 /*icons*/
 .hero-media-wrapper a svg {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   text-decoration: none;
   fill: #e6e2dd;
   border: 1px solid #e6e2dd;
   border-radius: 50%;
   padding: 4px;
-  margin: 15px;
+  margin: 20px;
   transition: 0.5s;
 }
 
@@ -175,28 +175,23 @@ h2{
   color:#c0c5be;
   text-align: center;
   padding: 1rem;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 
 
 /* STACK SECTION*/
-.main-body{
-  background-color: dimgray;
-  margin-top: -30px;
-}
-
 .stack-group {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 90px;
-  height: 30vh;
+  height: 25vh;
 }
 
 /*chrome*/
 .stack-title {
-  color: #000;
+  color: #eee;
 }
 .stack-progress::-webkit-progress-bar {
   background-color: #eee;
@@ -225,27 +220,56 @@ h2{
 }
 
 
-.main-footer {
-  background-color: #373a36;
-  color: #ffff;
-  font-size: 20px;
-  text-align: center;
-  padding: 20px;
+/* media query for small screen */
+@media only screen and (max-width: 1200px){
+#hero-wrapper{
+  height: 120vh;
+}
+
+.hero-wrapper-content{
+  line-height: 3;
+}
 }
 
 
-
-
-/* media query for small screen */
-@media only screen and (max-width: 1100px){
+@media only screen and (max-width: 1024px){
 #hero-wrapper{
-  height: 80vh;
+  height: 100vh;
 }
 
 .hero-wrapper-content {
   display: flex;
   padding-top: 30px;
   line-height: 4;
+}
+
+.profile-image {
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.greeting{
+  font-size: 35px;
+}
+
+.full-name{
+  font-size: 30px;
+}
+
+.brief{
+  font-size: 40px;
+}
+
+.hero-media-wrapper a svg{
+  width: 70px;
+  height: 70px;
+}
+
+.btn{
+  font-size: 30px;
 }
 
 .stack-group {
@@ -316,7 +340,7 @@ h2{
   .hero-wrapper-content {
     display: flex;
     padding-top: 30px;
-    line-height: 4;
+    line-height: 3.5;
   }
 
   .profile-image {
@@ -324,7 +348,7 @@ h2{
   }
 
   .greeting{
-    margin-top: 40px;
+    margin-top: 30px;
   }
 
   .full-name,
@@ -332,27 +356,24 @@ h2{
     font-size: 20px;
   }
 
-  .hero-media-wrapper svg {
-    width: 15px;
-    height: 15px;
+  .hero-media-wrapper a svg {
+    width: 40px;
+    height: 40px;
+    margin: 20px;
   }
 
   .btn {
     font-size: 20px;
   }
 
-  h2 {
-    font-size: 20px;
-  }
-
   
   .stack-progress {
-    width: 90%;
+    width: 95%;
   }
 
   .stack-group {
-    gap: 60px;
-    margin-bottom: 20px;
+    gap: 70px;
+    /* margin-bottom: 20px; */
   }
 
 }
@@ -393,7 +414,7 @@ h2{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 80vh;
+    height: 90vh;
   }
 
   .hero-wrapper-content {
@@ -406,14 +427,18 @@ h2{
     font-size: 20px;
   }
 
-  .full-name,
-  .brief {
+  .full-name {
     font-size: 16px;
   }
 
-  .hero-media-wrapper svg {
-    width: 10px;
-    height: 10px;
+  .brief{
+    font-size: 18px;
+  }
+
+  .hero-media-wrapper a svg {
+    width: 40px;
+    height: 40px;
+    margin: 20px;
   }
 
   .btn {
